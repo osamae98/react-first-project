@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import avatar from "../../assets/images/avataaars.svg";
 
 export default function Home() {
 
@@ -11,7 +12,7 @@ export default function Home() {
       <section className="home d-flex justify-content-center align-items-center vh-100 text-white">
         <div className="text-center">
           <img
-            src="/src/assets/images/avataaars.svg"
+            src={avatar}
             alt=""
             className="avatar-img mb-5"
           />

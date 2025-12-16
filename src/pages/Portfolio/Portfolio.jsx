@@ -1,4 +1,9 @@
 import {useEffect, useState } from "react";
+import port1 from "../assets/images/poert1.png";
+import port2 from "../assets/images/port2.png";
+import port3 from "../assets/images/port3.png";
+
+
 
 export default function Portfolio() {
 
@@ -9,12 +14,12 @@ export default function Portfolio() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    "/src/assets/images/poert1.png",
-    "/src/assets/images/port2.png",
-    "/src/assets/images/port3.png",
-    "/src/assets/images/poert1.png",
-    "/src/assets/images/port2.png",
-    "/src/assets/images/port3.png",
+    port1,
+    port2,
+    port3,
+    port1,
+    port2,
+    port3,
   ];
 
   const handleImageClick = (img) => {
