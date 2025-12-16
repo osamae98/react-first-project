@@ -1,7 +1,7 @@
 import {useEffect, useState } from "react";
-import port1 from "../assets/images/poert1.png";
-import port2 from "../assets/images/port2.png";
-import port3 from "../assets/images/port3.png";
+import port1 from "../../assets/images/port1.png";
+import port2 from "../../assets/images/port2.png";
+import port3 from "../../assets/images/port3.png";
 
 
 
